@@ -6,3 +6,7 @@ From here, click download and follow the instructions to get VS Code set up.
 
 ## Step 2 - Connecting Remotely
 The next step is to 
+
+## Step 3 - Trying Out Commands
+
+## Step 4 - scp Command: Moving Files
