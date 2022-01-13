@@ -10,3 +10,7 @@ The next step is to
 ## Step 3 - Trying Out Commands
 
 ## Step 4 - scp Command: Moving Files
+
+## Step 5 - Setting an SSH Key
+
+## Step 6 - Optimizing Remote Running
