@@ -1,8 +1,4 @@
-I'm writing words!
+CSE 15L Lab Reports
 ---
-A change in the repo
-![Image](2022-01-13.png)
-[Lab Report 1](lab-report-1-week-2.html)
-
 
 [Lab Report 1](https://adutta4.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
