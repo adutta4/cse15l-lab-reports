@@ -2,3 +2,4 @@ I'm writing words!
 ---
 A change in the repo
 ![Image](2022-01-13.png)
+[Lab Report 1](lab-report-1-week-2.html)
