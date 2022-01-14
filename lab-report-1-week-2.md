@@ -52,6 +52,8 @@ After the key is generated, the key needs to be added. This can be done using `s
 
 ![Image](ssh-add.png)
 
+Finally, the public key can be added to the remote server, using `scp`, and you can log in without a password: 
 
+![Image](login-nopass.png)
 
 ### Step 6 - Optimizing Remote Running
