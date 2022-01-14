@@ -10,6 +10,8 @@ The next step is to set up a remote connection. Before using a course-specific a
 Since I am on a Windows computer, I also had to install OpenSSH. This can be done from settings, going to Apps, then Optional Features. Search for OpenSSH and install, as shown below: 
 ![Image](openssh-install.png)
 
+Now, you can open a new terminal in VS Code, and to log in remotely, use the `ssh` command, followed by the course specific account. 
+
 ## Step 3 - Trying Out Commands
 
 ## Step 4 - scp Command: Moving Files
