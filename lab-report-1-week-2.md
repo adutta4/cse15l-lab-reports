@@ -29,7 +29,7 @@ Now that you can access the remote server, the next step is to be able to use th
 
 Here is an example of running some of these commands:
 
-
+![image](commands.png)
 
 ## Step 4 - scp Command: Moving Files
 
