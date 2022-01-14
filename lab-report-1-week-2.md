@@ -1,18 +1,23 @@
 # How To Access Your ieng6 Account 
 ## Step 1 - Installing VS Code
 The first step is to install a text editor in order to write and edit your code. In this case, the editor that I am going to use is Visual Studio Code. In order to install it, I just Googled "Visual Studio Code" in my browser, bringing up the following page: 
+
 ![Image](vs-code.png)
+
 From here, click download and follow the instructions to get VS Code set up on your computer. 
 
 ## Step 2 - Connecting Remotely
 The next step is to set up a remote connection. Before using a course-specific account for the first time, you will need to change the account password at [Password Change](https://sdacs.ucsd.edu/~icc/index.php). This takes around 15 minutes to reset. 
 
-Since I am on a Windows computer, I also had to install OpenSSH. This can be done from settings, going to Apps, then Optional Features. Search for OpenSSH and install, as shown below: 
+Since I am on a Windows computer, I also had to install OpenSSH. This can be done from settings, going to Apps, then Optional Features. Search for OpenSSH and install, as shown below:
+
 ![Image](openssh-install-updated.png)
 
-Now, you can open a new terminal in VS Code, and to log in remotely, use the `ssh` command, followed by the course specific account. As an example, for my account
+Now, you can open a new terminal in VS Code, and to log in remotely, use the `ssh` command, followed by the course specific account. As an example, for my account the command looks like: `ssh cs15lwi22arm@ieng6.ucsd.edu`. Once this is entered, the terminal will prompt you to enter your password. Once this is done, you should be logged in to the server: 
+![Image](remote.png)
 
 ## Step 3 - Trying Out Commands
+
 
 ## Step 4 - scp Command: Moving Files
 
