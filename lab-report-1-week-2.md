@@ -1,4 +1,3 @@
-<title>Lab Report 1
 # How To Access Your ieng6 Account 
 ## Step 1 - Installing VS Code
 The first step is to install a text editor in order to write and edit your code. In this case, the editor that I am going to use is Visual Studio Code. In order to install it, I just Googled "Visual Studio Code" in my browser, bringing up the following page: 
