@@ -57,3 +57,8 @@ Finally, the public key can be added to the remote server, using `scp`, and you 
 ![Image](login-nopass.png)
 
 ### Step 6 - Optimizing Remote Running
+Having the SSH key set up lowers some of the extra time that is taken to run what is needed. Other ways to lessen time taken is to combine commands into a single line, separated by semicolons, instead of having to type and run them individually. If this is done with ssh, the commands should be in quotation marks so that they can all be run remotely. Some examples of using this are:
+
+![Image](WhereAmI.png)
+
+Here, you can see the difference between running the WhereAmI file, which prints the path, on the local computer and on the remote server using `ssh` and quotes around the commands. 
