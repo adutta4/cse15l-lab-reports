@@ -39,9 +39,19 @@ Then, run the `scp` command with the file name and the destination directory (an
 
 ![Image](scp.png)
 
-Now, logging in and using `ls` will show the file in the remote directory. 
+Now, logging in and using the `ls`command will show that the file is in the remote directory:
+
+![Image](ls.png)
 
 ### Step 5 - Setting an SSH Key
-Setting up an SSH key allows you to log in without entering your password every time. This is very useful in reducing the time it takes to interact with the remote server and whatever you are doing on it. In order to set this up, you will need to 
+Setting up an SSH key allows you to log in without entering your password every time. This is very useful in reducing the time it takes to interact with the remote server and whatever you are doing on it. In order to set this up, you will need to first run `ssh-keygen` to generate a public and private key. For Windows, the process looks like this: 
+
+![Image](ssh-keygen.png)
+
+After the key is generated, the key needs to be added. This can be done using `ssh-add` on PowerShell, run as an administrator. The steps are the following commands:
+
+![Image](ssh-add.png)
+
+
 
 ### Step 6 - Optimizing Remote Running
