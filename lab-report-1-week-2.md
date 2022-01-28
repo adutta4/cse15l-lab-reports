@@ -61,4 +61,4 @@ Having the SSH key set up lowers some of the extra time that is taken to run wha
 
 ![Image](WhereAmI.png)
 
-Here, you can see the difference between running the WhereAmI file, which prints the path, on the local computer and on the remote server using `ssh` and quotes around the commands. 
+Here, you can see the difference between running the WhereAmI file, which prints the path, on the local computer and on the remote server using `ssh` and quotes around the commands. Another useful way to shorten the time to run a command is to use the up arrow key to get the last commands that were run, especially when you are running the same command multiples times. Specifically, for the last command in the image above, typing out the whole command takes 68 keystrokes. However, the next time the same command needs to be executed, using the up arrow key and then enter is only two keystrokes. Clearly, this will save a lot of time, especially if the program has to be run many times as the program gets more complex. 
