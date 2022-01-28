@@ -19,7 +19,7 @@ The failure-inducing input in this case is a markdown file that only contains so
 ### Code Change #3
 
 ![no-parentheses-fix](fix-noParentheses.png)
-Test File: [No parentheses Input File](https://github.com/adutta4/markdown-parse/blob/49e88fbab34dc8c394a0edf7aba98748541740e9/testfile4.md)
+Test File: [No parentheses Input File](https://github.com/adutta4/markdown-parse/blob/49e88fbab34dc8c394a0edf7aba98748541740e9/testfile4.md)  
 Symptom: ![symptom-3](wrong-output3.png)
 
 The failure-inducing input is a markdown file that contains square brackets that are not indicative of a link, and there are no parentheses afterwards. The symptom in this case is the StringIndexOutOfBoundException that is thrown on the line `toReturn.add(markdown.substring(openParen + 1, closeParen));`. The bug in the code causing this symptom are the lines immediately preceding this line, that set the indexes for the open parentheses and closed parentheses (variables openParen and closeParen) to -1. Fixing this required adding an if statement to check that these values do not equal -1 before proceeding to add the link to the output.
