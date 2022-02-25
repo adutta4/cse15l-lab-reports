@@ -26,10 +26,24 @@ This code would likely be a more involved change. The code that you would need t
 ### Code Snippet 2
 The expected output is: 
 
+![s2-output](s2-expected.png)
 
+The snippet was added to a file called snippet-2.md, and the added test is: 
+
+![snippet2](snippet2.png)
+
+The test failed for my implementation, with the following output:
+
+![s2fail](s2-fail.png)
+
+The test failed for the implementation that my lab reviewed, with the following output: 
+
+![s2-fail-review](s2-fail-r.png)
+
+This snippet would likely require a more involved change. Currently, the code only look for the next open bracket, without considering that this open bracket could be part of another link or could be escape characters, such as the last line in this snippet. In order to fix this, similar to the backtick fix, the code would need to find each set of brackets and pair them, as well as check the characters before. The required code would also need to have a similar function for parentheses, so it would require more than 10 lines. 
 
 ### Code Snippet 3
 The expected output is: 
 
 
-The snippet
+The snippet 
