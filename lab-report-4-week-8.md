@@ -49,11 +49,11 @@ The expected output is:
 
 The test file for this snippet is: 
 
-![s3](s3.png)
+![s3](s3-test.png)
 
 The test failed for my implementation, with the following output: 
 
-![s3fail](s3-test.png)
+![s3fail](s3.png)
 
 The test failed for the implementation that my lab reviewed, with the following output: 
 
