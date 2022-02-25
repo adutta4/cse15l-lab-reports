@@ -45,5 +45,18 @@ This snippet would likely require a more involved change. Currently, the code on
 ### Code Snippet 3
 The expected output is: 
 
+![snippet 3](snippet3.png) 
 
-The snippet 
+The test file for this snippet is: 
+
+![s3](s3.png)
+
+The test failed for my implementation, with the following output: 
+
+![s3fail](s3-fail.png)
+
+The test failed for the implementation that my lab reviewed, with the following output: 
+
+![s3-fail-review](s3-fail-r.png)
+
+This snippet would also require a more involved change. This is because there seems to be many different rules associated with new lines. For example, new lines seem to be allowed within the brackets if there is text on the new line. However, when there isn't text in the new line, it does not consititute a valid link. There also seem to be similar rules with parentheses, as there can be one new line on either side, but it no longer renders as a link with more than one line on either side. Because the code has to account for all these different circumstances, this can take more than a few lines of code. 
