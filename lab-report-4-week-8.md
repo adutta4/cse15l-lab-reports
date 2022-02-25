@@ -53,7 +53,7 @@ The test file for this snippet is:
 
 The test failed for my implementation, with the following output: 
 
-![s3fail](s3-fail.png)
+![s3fail](s3-test.png)
 
 The test failed for the implementation that my lab reviewed, with the following output: 
 
