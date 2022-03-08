@@ -17,7 +17,7 @@ The test failed for my implementation, with the following output:
 
 ![s1fail](s1-fail.png)
 
-The test failed for the implementation that my lab reviewed, with the following output: 
+The test failed for the implementation that my lab group reviewed, with the following output: 
 
 ![s1-fail-review](s1-fail-r.png)
 
@@ -36,7 +36,7 @@ The test failed for my implementation, with the following output:
 
 ![s2fail](s2-fail.png)
 
-The test failed for the implementation that my lab reviewed, with the following output: 
+The test failed for the implementation that my lab group reviewed, with the following output: 
 
 ![s2-fail-review](s2-fail-r.png)
 
@@ -55,7 +55,7 @@ The test failed for my implementation, with the following output:
 
 ![s3fail](s3.png)
 
-The test failed for the implementation that my lab reviewed, with the following output: 
+The test failed for the implementation that my lab group reviewed, with the following output: 
 
 ![s3-fail-review](s3-fail-r.png)
 
